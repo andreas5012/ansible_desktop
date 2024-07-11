@@ -21,7 +21,7 @@
   - name: set wallpaper
     dconf:
       key: "/org/gnome/desktop/backround/picture-uri"
-      value: "'file://usr/share/backrounds/ansible-wallpaper.png'"
+      value: "'file:/usr/share/backrounds/ansible-wallpaper.png'"
 
   - name: set wallpaper positon
     dconf:
